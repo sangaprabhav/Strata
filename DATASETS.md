@@ -1,13 +1,3 @@
-
-<p align="center">
-  <img src="./assets/STRATA.jpeg" alt="Strata Logo" width="300"/>
-</p>
-
-
-
-# Strata
-A family of foundational models for Dermatology
-
 # Open-source Dermatology Datasets:
 
 1. DDI: Diverse Dermatology Images
@@ -23,8 +13,3 @@ DDI-2 can be used to augment and evaluate model performance in the Asian America
 Authors: Stanford AIMI
 
 Link: https://stanfordaimi.azurewebsites.net/datasets/1d6cdb9b-0791-4b52-abd1-48014d2117a1
-
-
-
-
-**We have generated the logo using Microsoft's Co-pilot Image Generation.** 
