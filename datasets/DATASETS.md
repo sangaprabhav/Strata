@@ -1,4 +1,4 @@
-# Open-Source Dermatology Datasets
+# Open-Source Dermatology Datasets we have used for STRATA's Training
 
 ## 1. DDI: Diverse Dermatology Images
 
