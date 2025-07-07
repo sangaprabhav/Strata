@@ -1,0 +1,116 @@
+{
+  "input_file": "../../processed_metadata/ham10k_enriched.json",
+  "total_samples": 10015,
+  "split_method": "stratified",
+  "random_seed": 42,
+  "splits": {
+    "train": {
+      "file": "../../splits/ham10k_enriched_train.json",
+      "samples": 7007,
+      "percentage": 69.96505242136794,
+      "statistics": {
+        "dataset_distribution": {
+          "HAM10K": 7007
+        },
+        "diagnosis_distribution": {
+          "nevus": 4693,
+          "benign_keratosis": 769,
+          "melanoma": 779,
+          "dermatofibroma": 80,
+          "basal_cell_carcinoma": 359,
+          "actinic_keratosis": 228,
+          "vascular_lesion": 99
+        },
+        "sex_distribution": {
+          "male": 3745,
+          "female": 3225,
+          "unknown": 37
+        },
+        "anatomical_site_distribution": {
+          "lower_extremity": 1720,
+          "trunk": 3484,
+          "upper_extremity": 835,
+          "genitalia": 34,
+          "head_neck": 785,
+          "unknown": 149
+        },
+        "vqa_statistics": {
+          "total_questions": 89458,
+          "avg_questions_per_sample": 12.76694733837591
+        }
+      }
+    },
+    "val": {
+      "file": "../../splits/ham10k_enriched_val.json",
+      "samples": 1499,
+      "percentage": 14.967548676984524,
+      "statistics": {
+        "dataset_distribution": {
+          "HAM10K": 1499
+        },
+        "diagnosis_distribution": {
+          "nevus": 1005,
+          "melanoma": 166,
+          "basal_cell_carcinoma": 77,
+          "benign_keratosis": 164,
+          "actinic_keratosis": 49,
+          "dermatofibroma": 17,
+          "vascular_lesion": 21
+        },
+        "sex_distribution": {
+          "male": 840,
+          "female": 647,
+          "unknown": 12
+        },
+        "anatomical_site_distribution": {
+          "unknown": 45,
+          "trunk": 754,
+          "upper_extremity": 197,
+          "head_neck": 148,
+          "lower_extremity": 350,
+          "genitalia": 5
+        },
+        "vqa_statistics": {
+          "total_questions": 19133,
+          "avg_questions_per_sample": 12.763842561707806
+        }
+      }
+    },
+    "test": {
+      "file": "../../splits/ham10k_enriched_test.json",
+      "samples": 1509,
+      "percentage": 15.067398901647527,
+      "statistics": {
+        "dataset_distribution": {
+          "HAM10K": 1509
+        },
+        "diagnosis_distribution": {
+          "nevus": 1007,
+          "melanoma": 168,
+          "benign_keratosis": 166,
+          "actinic_keratosis": 50,
+          "dermatofibroma": 18,
+          "basal_cell_carcinoma": 78,
+          "vascular_lesion": 22
+        },
+        "sex_distribution": {
+          "female": 680,
+          "male": 821,
+          "unknown": 8
+        },
+        "anatomical_site_distribution": {
+          "trunk": 787,
+          "head_neck": 164,
+          "upper_extremity": 176,
+          "unknown": 40,
+          "lower_extremity": 333,
+          "genitalia": 9
+        },
+        "vqa_statistics": {
+          "total_questions": 19265,
+          "avg_questions_per_sample": 12.76673293571902
+        }
+      }
+    }
+  }
+}
